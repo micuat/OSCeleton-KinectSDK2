@@ -804,7 +804,7 @@ namespace Microsoft.Samples.Kinect.FaceBasics
                 else
                     dc.DrawImage(img,  this.displayRect);
 
-                if (dataReceived)
+                if (dataReceived && this.bodyColors != null)
                 {
                     int penIndex = 0;
                     foreach (Body body in this.bodies)

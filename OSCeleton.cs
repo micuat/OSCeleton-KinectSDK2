@@ -23,7 +23,7 @@ namespace OSCeleton
         private bool handsOnly = false;
         private bool faceTracking = false;
         private bool writeOSC = true;
-        private bool writeCSV = false;
+        private bool writeCSV = true;
         private bool useUnixEpochTime = true;
         private String oscHost = "127.0.0.1";
         private int oscPort = 7110;
